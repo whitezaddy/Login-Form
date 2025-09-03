@@ -17,3 +17,4 @@ button.addEventListener("click", () => {
   console.log("Password:", passwordInput.value);
 });
 
+button.addEventListener("click", )
