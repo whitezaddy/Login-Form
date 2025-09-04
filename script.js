@@ -11,10 +11,13 @@ button.addEventListener("click", () => {
   button.style.color = "white";
   button.style.background = "darkblue";
 
+  //change border color of inputs to blue
+  inputs.forEach(input => {
+    input.style.border = "1px solid blue";
+  });
+
   // Print username & password to console
   console.log("Username:", usernameInput.value);
     console.log("Email:", emailInput.value);
   console.log("Password:", passwordInput.value);
 });
-
-button.addEventListener("click", )
